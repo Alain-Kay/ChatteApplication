@@ -16,7 +16,7 @@ public class Server {
 
             while (true){
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("Moi : ");
+                System.out.print("Moi : ");
                 String messageEnvoye = scanner.nextLine();
                 PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
 
