@@ -21,7 +21,7 @@ public class Client {
                 }
 
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("Moi : ");
+                System.out.print("Moi : ");
                 String messageEnvoye = scanner.nextLine();
                 PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
                 printWriter.println(messageEnvoye);
