@@ -1,4 +1,4 @@
-Une application de chat Client/Serveur avec Socket java : 
+Une application de chat ClientHandler/Serveur avec Socket java : 
 
 Le serveur java initialise la connexion, il lance l'écoute sur un port et se met en attente des connexions entrantes pour qu'il les accepte.
 Java fournit un package java.net qui traite tout ce qui est réseau, on a besoin seulement de deux classes:
